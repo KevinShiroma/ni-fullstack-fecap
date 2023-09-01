@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li,
+dd,
+dt,
+dd {
+  list-style: none;
+}
+
+.contato-boot {
+  background-color: #c0a893;
+}
+
+.container-fluid img {
+  opacity: 0.7;
+}
+
+.container-fluid button {
+  background-color: #eaa940;
+  color: #101010;
+  border: none;
+}
+
+.container-fluid button:hover {
+  background-color: #c99136;
+}
+
+.container-fluid h3,
+.container-fluid p {
+  color: #101010;
+}
+
+.container-fluid p {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* Conexão com o scroll-interno.js */
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: 0.5s;
+}
+
+.js-scroll.ativo {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

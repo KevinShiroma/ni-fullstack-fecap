@@ -1,0 +1,13 @@
+/* Import dos estilos do site */
+@import url("./global.css");
+
+/* import da tipografia utilizada */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Poppins&display=swap");
+
+/* estilização da página */
+@import url("./header.css");
+@import url("./intro.css");
+@import url("./momentos.css");
+@import url("./depoimento.css");
+@import url("./faq.css");
+@import url("./footer.css");

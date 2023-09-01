@@ -1,0 +1,100 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #c0a893;
+  overflow: hidden;
+}
+
+.depoimento img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  object-fit: cover;
+}
+
+.depoimento h1 {
+  font-size: 2rem;
+  font-family: "Merriweather Sans", sans-serif;
+  margin-bottom: 60px;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.depoimento-conteudo {
+  padding: 80px 40px 80px 80px;
+  align-self: start;
+}
+
+.depoimento-conteudo p {
+  max-width: 32ch;
+  font-family: "Merriweather", serif;
+
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.depoimento p::before,
+.depoimento p::after {
+  font-size: 5rem;
+  color: #454545;
+  position: absolute;
+}
+
+.depoimento p::before {
+  content: "“";
+  left: -20px;
+  top: -20px;
+}
+
+.depoimento p::after {
+  content: "”";
+  right: 10px;
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
+
+@media (max-width: 768px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .depoimento img {
+    max-height: 200px;
+  }
+
+  .depoimento-conteudo {
+    padding: 40px 20px;
+    justify-self: center;
+  }
+
+  .depoimento h1 {
+    font-size: 2rem;
+    font-family: "Merriweather Sans", sans-serif;
+    margin-bottom: 60px;
+    text-align: left;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .depoimento p::before,
+  .depoimento p::after {
+    font-size: 3rem;
+  }
+
+  .depoimento p::before {
+    content: "“";
+    left: -15px;
+    top: -20px;
+  }
+
+  .depoimento p::after {
+    content: "”";
+    right: -10px;
+  }
+}

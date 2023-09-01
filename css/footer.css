@@ -1,0 +1,46 @@
+.footer-bg {
+  background-color: #454545;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  padding-top: 60px;
+}
+
+.footer h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 1.3rem;
+}
+
+.footer-contato-img {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-pag a {
+  color: white;
+  font-size: 1.15rem;
+}
+
+.footer span {
+  grid-column: 2 / 4;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer span {
+    grid-column: auto;
+  }
+
+  .footer h1 {
+    color: white;
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+  }
+}
