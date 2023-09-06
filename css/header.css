@@ -2,6 +2,11 @@
   background-color: #c0a893;
 }
 
+.logo{
+  width: 300px;
+  height: auto;
+}
+
 .menu {
   display: flex;
   align-items: center;
