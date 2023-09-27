@@ -25,7 +25,7 @@
 
 ### Objetivos: 
  
-<p> O site e um trabalho do curso de Análise e Desenvolvimento de Sistemas da FECAP.</p> <br>
+<p> O site é um trabalho do curso de Análise e Desenvolvimento de Sistemas da FECAP. Tem como objetivo testar as habilidades do aluno na criação de landing pages utilizando HTML, CSS, JS e Bootstrap. </p> <br>
 
   ### Prototipação:
   <p> O site foi inteiramente prototipado no Figma com inspiração em Landing Pages encontrados no Dribbble.</p>
